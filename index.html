@@ -1,75 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Recorded Lectures and Notes</title>
+    <link rel="icon" href="SIES LOGO PNG file.png" type="image/x-icon" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-  <style>
-    body {
-      background-color: aliceblue;
-      color: black;
-      background-image: url("SIES\ LOGO\ PNG\ file.png");
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center;
-    }
-  </style>
-  <title>Recorded Lectures and Notes</title>
-  <link rel="icon" href="SIES LOGO PNG file.png" type="image/x-icon">
-</head>
-
-<body>
-  <!-- navigation bar -->
-  <nav class="navbar" style="background-color: #a7daff;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="SIES LOGO PNG file.png" alt="sies logo" width="30" height="30" class="d-inline-block align-text-top">
-        SIES UNOFFICIAL SITE
-      </a>
+  <body>
+    <!-- navigation bar -->
+    <nav class="navbar" style="background-color: #a7daff">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="SIES LOGO PNG file.png"
+            alt="sies logo"
+            width="30"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
+          SIES UNOFFICIAL SITE
+        </a>
+      </div>
+    </nav>
+    <!-- alert box -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Hey User!</strong> Welcome to the SIES UNOFFICIAL site
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
     </div>
-  </nav>
-  <!-- alert box -->
-  <div class="alert alert-warning alert-dismissible fade show" role="alert">
-    <strong>Hey User!</strong> Welcome to the SIES UNOFFICIAL site
-    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-  </div>
-  <div class="lectures">
-  <!-- web development link -->
-  <a href="https://youtube.com/playlist?list=PLhE-XEEltlXfuDQXkUzVJIuQD1-gR3u4z" target="_blank"><img
-      src="web development thumbnail.jpg"  alt="web development"></a><br>
+    <div class="gallery">
+      <div>
+        <!-- web development link -->
+        <a
+          href="https://youtube.com/playlist?list=PLhE-XEEltlXfuDQXkUzVJIuQD1-gR3u4z"
+          target="_blank"
+          ><img src="web development thumbnail.jpg" alt="web development" /></a
+        ><br />
+      </div>
+      <div>
+        <!-- operating systems link -->
+        <a
+          href="https://youtube.com/playlist?list=PLhE-XEEltlXeCC9CTD5wur5bE44fSlaNv"
+          target="_blank"
+          ><img
+            src="operating system thumbnail.jpg"
+            alt="operating system" /></a
+        ><br />
+      </div>
+      <div>
+        <!-- java link -->
+        <a
+          href="https://youtube.com/playlist?list=PLhE-XEEltlXfpi3yrQxkcvlwLKonBGN9t"
+          target="_blank"
+          ><img src="java thumbnail.jpg" alt="java" /></a
+        ><br />
+      </div>
+      <div>
+        <!-- Internet of things link -->
+        <a
+          href="https://youtube.com/playlist?list=PLhE-XEEltlXfkbctnQNw2oK5FItTIDeU7"
+          target="_blank"
+          ><img src="Iot.jpg" alt="Iot" /></a
+        ><br />
+      </div>
+      <div>
+        <!-- dbms link -->
+        <a
+          href="https://youtube.com/playlist?list=PLhE-XEEltlXeKKL6K61QN74aArvztoZRI"
+          target="_blank"
+          ><img src="dbms.jpg" height="130" width="240" alt="Iot" /></a
+        ><br />
+      </div>
+      <div>
+        <!-- notes for all the subjects -->
+        <a
+          href="https://drive.google.com/drive/folders/1oIMOLeamtJzK9DdmTCurtT-tW77_SVoo?usp=sharing"
+          target="_blank"
+          ><img src="notes.jpg" alt="java" /></a
+        ><br />
+      </div>
     </div>
-  <div class="lectures">
-  <!-- operating systems link -->
-  <a href="https://youtube.com/playlist?list=PLhE-XEEltlXeCC9CTD5wur5bE44fSlaNv" target="_blank"><img
-      src="operating system thumbnail.jpg"  alt="operating system"></a><br>
-    </div>
-  <div class="lectures">
-  <!-- java link -->
-  <a href="https://youtube.com/playlist?list=PLhE-XEEltlXfpi3yrQxkcvlwLKonBGN9t" target="_blank"><img
-      src="java thumbnail.jpg"  alt="java"></a><br>
-    </div>
-  <div class="lectures">
-  <!-- Internet of things link -->
-  <a href="https://youtube.com/playlist?list=PLhE-XEEltlXfkbctnQNw2oK5FItTIDeU7" target="_blank"><img src="Iot.jpg"
-       alt="Iot"></a><br>
-    </div>
-  <div class="lectures">
-    <!-- dbms link -->
-  <a href="https://youtube.com/playlist?list=PLhE-XEEltlXeKKL6K61QN74aArvztoZRI" target="_blank"><img src="dbms.jpg"height="130" width="240" alt="Iot"></a><br>
-</div>
-<div class="lectures">
-  <!-- notes for all the subjects -->
-  <a href="https://drive.google.com/drive/folders/1oIMOLeamtJzK9DdmTCurtT-tW77_SVoo?usp=sharing" target="_blank"><img
-      src="notes.jpg"  alt="java"></a><br>
-    </div>
-  <!-- added js from bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
-</body>
-
+    <!-- added js from bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
