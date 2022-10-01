@@ -22,6 +22,11 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.img{
+    width: 305px;
+    height: 200px;
+}
 .flexitem span{
     width: 100%;
     align-items: center;
@@ -33,6 +38,8 @@ body{
     display: flex;
     flex-direction: row;
     color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
    /* justify-content: baseline; */
 
 }
