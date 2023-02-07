@@ -13,8 +13,10 @@ body{
 .flexitem{
     background-color: white;
     border: 0.2rem solid rgb(111, 174, 255);
-    box-shadow: 0.5rem 0.5rem 0.5rem  rgb(74, 77, 84);
     margin: 2% 0%;
+}
+.flexitem:hover{
+    box-shadow: 0.5rem 0.5rem 0.5rem  rgb(74, 77, 84);
 }
 .flexitem img{
     width: 100%;
