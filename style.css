@@ -45,3 +45,23 @@ body{
    /* justify-content: baseline; */
 
 }
+
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  font-size: 28px;
+  padding:5px 15px 10px 10px;
+  border-radius: 5px;
+  background-color: #a7daff;
+  color: rgb(252, 166, 7);
+  transform: rotate(-90deg);
+  cursor: pointer;
+  
+}
+
+#back-to-top-btn:hover {
+  background-color: #fff3cd;
+}
