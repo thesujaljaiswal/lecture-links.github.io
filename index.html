@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Recorded Lectures and Notes</title>
-    <link rel="icon" href="SIES LOGO PNG file.png" type="image/x-icon" />
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Recorded Lectures and Notes</title>
+  <link rel="icon" href="SIES LOGO PNG file.png" type="image/x-icon" />
+</head>
 
 <body>
   <!-- navigation bar -->
@@ -30,8 +24,29 @@
       </a>
     </div>
   </nav>
+  <div class="header-content">
     <h2 id="quote">This Site Contains institutional lectures which is not to be shared outside</h2>
   </div>
+
+
+
+
+  <!-- notes text -->
+  <div class="sem-info">
+    <p>Notes</p>
+  </div>
+
+  <div class="container">
+    <!-- notes -->
+    <div class="flexitem"><a href="https://drive.google.com/drive/folders/1oIMOLeamtJzK9DdmTCurtT-tW77_SVoo"
+        target="_blank"><img src="notes.jpg" alt="Notes"><span>Notes</span></a></div>
+  </div>
+
+  <div class="sem-info">
+    <p>Semster 3</p>
+  </div>
+
+
   <div class="container">
     <!-- web development -->
     <div class="flexitem"><a href="https://www.youtube.com/playlist?list=PLhE-XEEltlXfuDQXkUzVJIuQD1-gR3u4z"
@@ -55,13 +70,17 @@
     <!-- cgt -->
     <div class="flexitem"><a href="https://youtube.com/playlist?list=PLhE-XEEltlXeMCcfwgEWTaeoaKG9IAZX6"
         target="_blank"><img src="cgt.jpg" alt="cgt"><span>Combinatorics and graph theory</span></a></div>
-    <!-- android development -->
-    <div class="flexitem"><a href="https://youtube.com/playlist?list=PLhE-XEEltlXeU_nfwg9Pum6DDbN_hnVDZ"
-        target="_blank"><img src="android development.jpg" alt="android development"><span>Android development</span></a></div>
-    <!-- ad java -->
-    <div class="flexitem"><a href="https://youtube.com/playlist?list=PLhE-XEEltlXftg1F4VUvTNN4OT10R11hj"
-        target="_blank"><img src="ad java thumbnail.jpg" alt="advance java"><span>Advance java</span></a></div>
   </div>
+
+
+
+  <!-- sem 4 text -->
+  <div class="sem-info">
+    <p>Semster 4</p>
+  </div>
+
+
+
   <div class="container">
     <!-- lap -->
     <div class="flexitem"><a href="https://youtube.com/playlist?list=PLhE-XEEltlXe1Lou5yE0pSRfgneuTVvAP&feature=shares"
@@ -69,37 +88,52 @@
     <!-- foa -->
     <div class="flexitem"><a href="https://youtube.com/playlist?list=PLhE-XEEltlXd8FOevXmHbzCQm84O6NLmd&feature=shares"
         target="_blank"><img src="foa thumbnail.jpg" alt="foa"><span>foa</span></a></div>
-        <!-- notes -->
-    <div class="flexitem"><a href="https://drive.google.com/drive/folders/1oIMOLeamtJzK9DdmTCurtT-tW77_SVoo"
-      target="_blank"><img src="notes.jpg" alt="Notes"><span>Notes</span></a></div>
+    <!-- android development -->
+    <div class="flexitem"><a href="https://youtube.com/playlist?list=PLhE-XEEltlXeU_nfwg9Pum6DDbN_hnVDZ"
+        target="_blank"><img src="android development.jpg" alt="android development"><span>Android
+          development</span></a></div>
+    <!-- ad java -->
+    <div class="flexitem"><a href="https://youtube.com/playlist?list=PLhE-XEEltlXftg1F4VUvTNN4OT10R11hj"
+        target="_blank"><img src="ad java thumbnail.jpg" alt="advance java"><span>Advance java</span></a></div>
+  </div>
+  <div class="container">
+    <!-- ad java -->
+    <div class="flexitem"><a href="https://youtube.com/playlist?list=PLhE-XEEltlXfQkEtUckRAmKhJ_6u-cUvk&feature=shares"
+        target="_blank"><img src="cn.jpg" alt="Computer networks"><span>Computer Networks</span></a></div>
+
   </div>
 
-    <!-- back to top button -->
-    <button id="back-to-top-btn"> ➤ </button>
-    <script>
-      const backToTopButton = document.querySelector("#back-to-top-btn");
 
-      window.addEventListener("scroll", () => {
-        if (window.pageYOffset > 100) {
-          // Show the button
-          backToTopButton.style.display = "block";
-        } else {
-          // Hide the button
-          backToTopButton.style.display = "none";
-        }
-      });
 
-      backToTopButton.addEventListener("click", () => {
-        // Scroll to the top of the page
-        window.scrollTo(0, 0);
-      });
-    </script>
 
-    <!-- added js from bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+
+
+  <!-- back to top button -->
+  <button id="back-to-top-btn"> ➤ </button>
+  <script>
+    const backToTopButton = document.querySelector("#back-to-top-btn");
+
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 100) {
+        // Show the button
+        backToTopButton.style.display = "block";
+      } else {
+        // Hide the button
+        backToTopButton.style.display = "none";
+      }
+    });
+
+    backToTopButton.addEventListener("click", () => {
+      // Scroll to the top of the page
+      window.scrollTo(0, 0);
+    });
+  </script>
+
+  <!-- added js from bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
