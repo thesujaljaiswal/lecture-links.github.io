@@ -102,3 +102,8 @@ a{
   text-fill-color: transparent;
   font-family: hasief;
 }
+
+.vertical {
+  border-left: 3px solid rgb(0, 0, 0);
+  height: 2.5rem;
+}
